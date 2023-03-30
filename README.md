@@ -1,4 +1,9 @@
 # Comandos
 
-- "npm install" instalar todas las dependencias
-- "node src/app" ejecutar el servidor en el puerto 8080.
+Instalar las dependencias y ejecutar el servidor.
+
+```sh
+npm install
+node src/app
+```
+
