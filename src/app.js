@@ -20,7 +20,7 @@ app.get("/products/:pid", async (request, response) => {
   response.send({ product });
 });
 
-const PORT = process.env.PORT || 8080;
+const PORT = 8080;
 
 app.listen(PORT, () => {
   console.log(`Server running at http://localhost:${PORT}
