@@ -29,7 +29,7 @@ app.listen(PORT, () => {
 
   - Todos los productos: http://localhost:${PORT}/products
   - 5 Primeros productos: http://localhost:${PORT}/products?limit=5
-  - Producto con id=2: http://localhost:8080/products/2
-  - Producto no existe: http://localhost:8080/products/34123123
+  - Producto con id=2: http://localhost:${PORT}/products/2
+  - Producto no existe: http://localhost:${PORT}/products/34123123
   `);
 });

@@ -24,6 +24,7 @@ export default class ProductManager {
       };
       products.push(newProduct);
       await fs.promises.writeFile(this.path, JSON.stringify(products, null, 2));
+      return { success: `El producto se agrego correctamente.` };
     } catch (error) {
       return { error: `${error.message}` };
     }
